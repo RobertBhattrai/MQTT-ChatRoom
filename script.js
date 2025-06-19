@@ -11,6 +11,7 @@ const client = mqtt.connect(brokerUrl, {
   clean: true,
   connectTimeout: 4000,
   reconnectPeriod: 4000
+  
 });
 
 const statusEl = document.getElementById("status");
